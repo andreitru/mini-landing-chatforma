@@ -1,0 +1,11 @@
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.preview__video,
+.preview__img {
+  max-height: 400px;
+}

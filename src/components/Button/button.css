@@ -1,0 +1,67 @@
+.btn {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn__text {
+  padding-left: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--white);
+  text-align: center;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  white-space: nowrap;
+}
+
+.btn-telegram {
+  background-color: var(--telegram);
+}
+
+.btn-telegram .btn__text {
+  background-image: url("../../assets/icons/telegram.jpg");
+}
+
+.btn-vk {
+  background-color: var(--vk);
+}
+
+.btn-vk .btn__text {
+  background-image: url("../../assets/icons/vk.jpg");
+}
+
+.btn-fb {
+  background-color: var(--facebook);
+}
+
+.btn-fb .btn__text {
+  background-image: url("../../assets/icons/facebook.jpg");
+}
+
+.btn-viber {
+  background-color: var(--viber);
+}
+
+.btn-viber .btn__text {
+  background-image: url("../../assets/icons/viber.png");
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 47%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .btn__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

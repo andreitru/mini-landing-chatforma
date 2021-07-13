@@ -1,0 +1,13 @@
+.description__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .description__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
